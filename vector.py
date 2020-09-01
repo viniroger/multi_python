@@ -2,8 +2,6 @@
 # -*- Coding: UTF-8 -*-
 
 from helpers.nchlp import Nchlp
-from helpers.timer import Timer
-t = Timer()
 
 # Load netCDF file
 filename = 'data/sat0012016.1500.nc'
