@@ -169,4 +169,4 @@ class Nchlp():
         '''
         Save xarray/dataset to netCDF file
         '''
-        dataset.to_netcdf(filename)
+        dataset.to_netcdf(filename, unlimited_dims={'time':True}, format='NETCDF4_CLASSIC')
